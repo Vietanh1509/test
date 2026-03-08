@@ -1,0 +1,19 @@
+name: build-mac
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: compile
+        run: gcc test.c -o app
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mac-app
+          path: app
