@@ -19,7 +19,7 @@ void play_music(){
 #ifdef _WIN32
     system("start LoveLanguage.mp3");  
 #elif __APPLE__
-    system("afplay LoveLanguage.mp3 &"); 
+    system("afplay ./LoveLanguage.mp3 &");
 #endif
 }
 
@@ -87,4 +87,5 @@ int main(){
     getchar();
 
     return 0;
+
 }
