@@ -59,7 +59,7 @@ int main(){
         "Chinese: Wo ai ni",
         "Russian: Ya lyublyu tebya",
         "Italian: Ti amo",
-        "Portuguese: Eu te amo"
+        "Portuguese: Eu te amo",
         "Arabic: Ana behibek",
         "Hindi: Main tumse pyaar karta hoon",
         "Turkish: Seni seviyorum",
@@ -89,3 +89,4 @@ int main(){
     return 0;
 
 }
+
